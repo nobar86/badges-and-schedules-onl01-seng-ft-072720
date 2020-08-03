@@ -11,6 +11,9 @@ results = []
  results
 end
 
-def assign_rooms(name, room)
+def assign_rooms(array)
+  results = []
+  array.each_with_index do |name, room|
+    
   
 end
